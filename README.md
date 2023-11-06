@@ -15,7 +15,7 @@ We aligned the sequences using `mafft` v7.481:
 mafft --localpair  --maxiterate 16 --phylipout --inputorder GENUS/GENUS.fa > GENUS/GENUS_aligned.phylip
 ```
 
-Y
+We then built the phylogenies with `iq-tree` v2.2.0.5:
 
 ```bash
 iqtree2 -T 1 -s GENUS/GENUS_aligned.phylip -m MFP -B 1000
