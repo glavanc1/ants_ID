@@ -21,4 +21,4 @@ We then reconstructed the phylogenies using `iqtree` v2.0.6
 iqtree2 -T 1 -s GENUS/GENUS_aligned.phylip -m MFP -B 1000
 ```
 
-The output trees were analysed in R. The scripts are available in `GENUS/GENUS.R`
+The output trees were analysed in R 4.1.1. The scripts are available in `GENUS/GENUS.R`
