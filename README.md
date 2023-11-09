@@ -8,7 +8,7 @@ by Tim M. Szewczyk, Guillaume Lavanchy, Anne Freitag, Cleo Bertelsmeier, Tanja S
 The COI sequences used in this study are available on GenBank. Accession numbers are given in XXX.
 
 We conducted a separate analysis for each of the four genus: *Camponotus*, *Tapinoma*, *Temnothorax* and *Tetramorium*.
-For each genus, the concatenated fasta file including reference individuals is available in `GENUS/GENUS.fa` (replace `GENUS` by the genus name). The sequences from reference individuals are named with their GenBank accession numbers. There are no reference individuals for *Camponotus* as the purpose of genotyping was to confirm some uncertain indentifications, but there was no suspicion of additional species (this was confirmed *a posteriori*). We added one individual from a different genus as outgroup.
+For each genus, the concatenated fasta file including reference individuals is available in `GENUS/GENUS.fa` (replace `GENUS` by the genus name). The sequences from reference individuals are named with their GenBank accession numbers. There are no reference individuals for *Camponotus* as the purpose of genotyping was to confirm some uncertain indentifications, but there was no suspicion of additional species (this was confirmed *a posteriori*).
 
 We aligned the sequences using `mafft` v7.481:
 ```bash
