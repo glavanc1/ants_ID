@@ -54,8 +54,8 @@ Tetr_impu.tips <- Tetr_impu.nodes[which(is.na(Tetr_impu.nodes)==F)]
 meta$SPECIESID_GENETIC[which(meta$CATALOGUENUMBER %in% Tetr_impu.tips)] <- "Tetr_impu"
 
 # Correcting Tetr_immi
-# identifying all nodes and tips descendants from 266 (identified visually as the MRCA of all Tetr_immi)
-Tetr_immi.nodes <- tree$tip.label[getDescendants(tree, node = 266)]
+# identifying all nodes and tips descendants from 522 (identified visually as the MRCA of all Tetr_immi)
+Tetr_immi.nodes <- tree$tip.label[getDescendants(tree, node = 522)]
 # remove nodes (which have indices outside length(tree$tip.label))
 Tetr_immi.tips <- Tetr_immi.nodes[which(is.na(Tetr_immi.nodes)==F)]
 # Assign new species ID
