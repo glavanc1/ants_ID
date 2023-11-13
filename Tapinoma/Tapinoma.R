@@ -1,5 +1,3 @@
-setwd("/Users/glavanc1/Documents/ants_hybridisation/Tim_ms/")
-
 library(phytools)
 
 # reading the metadata containing the morphological identification
